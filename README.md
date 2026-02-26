@@ -35,12 +35,16 @@ data/raw/caltech-101/
 > Note: If you see a folder like `BACKGROUND_Google`, it is typically excluded to keep exactly 101 classes.
 
 ## Repository Structure
+
+
 caltech101-project/
-notebooks/ # notebooks for data split, models, and ablations
-outputs/ # generated outputs (figures, logs)
-report/ # final report PDF and figures
-data/ # dataset folder (ignored by git)
-requirements.txt # python dependencies
-.gitignore
-README.md
+│
+├── notebooks/ # notebooks for data split, models, and ablations
+├── outputs/ # generated outputs (figures, logs)
+├── report/ # final report PDF and figures
+├── data/ # dataset folder (ignored by git)
+│
+├── requirements.txt # python dependencies
+├── .gitignore
+└── README.md
 
